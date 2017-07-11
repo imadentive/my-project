@@ -1,0 +1,49 @@
+@function px2rem( $px ){
+  @return $px/75 + rem;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC","Helvetica Neue",STHeiti,"Microsoft Yahei",Tahoma,Simsun,sans-serif;
+
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  font-family: inherit;
+  font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+  display: none;
+}
+
+
+//重置样式 start
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+input,textarea{
+  border:none;
+  outline: none;
+  background: none;
+}
+input[type='checkbox']{
+  -webkit-appearance: none;
+}
+input[disabled]{
+  background: #fff;
+  color:#999;
+}
+
+
+//重置样式 end
+@import "common";//公共样式
+@import "border";//1像素边框处理
+@import "page_login";//登录页面
+@import "page_home";//主页
+@import "page_customer_list";//客户列表
+@import "page_customer_details";//客户详情
+@import "page_customer_remark";//客户流水

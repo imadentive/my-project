@@ -1,0 +1,28 @@
+#wrapper-login{
+  background-color: white;
+  .form{
+    padding:0 px2rem(104);
+    padding-top: px2rem(124);
+    .row{
+      height:px2rem(100);
+      font-size:px2rem(28);
+      color:#000;
+      display: flex;
+      align-items: center;
+      input{
+
+      }
+    }
+    .btn{
+      margin-top: px2rem(50);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color:#fff;
+      font-size:px2rem(30);
+      background: $mainColor;
+      border-radius: px2rem(38);
+      height:px2rem(76);
+    }
+  }
+}
